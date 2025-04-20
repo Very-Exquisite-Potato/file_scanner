@@ -1,0 +1,144 @@
+h1
+{
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5), -3px -3px 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(0, 128, 255, 0.8);
+    transform: perspective(800px);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+form
+{
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    font-family: 'Orbitron', sans-serif;
+    transform: perspective(800px);
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    width: 110%;
+    left: 37%;
+    top: 12%;
+    font-family: 'Orbitron', sans-serif;
+    transform: perspective(800px);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+form button:hover
+{
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #007BFF;
+}
+
+form input:hover
+{
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #007BFF;
+}
+
+form p
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 0%;
+
+    
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    font-family: 'Orbitron', sans-serif;
+    transform: perspective(800px);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+thead {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+thead th {
+    padding: 12px;
+}
+
+tbody td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: default;
+}
+
+footer
+{
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    font-family: 'Orbitron', sans-serif;
+    transform: perspective(800px);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
