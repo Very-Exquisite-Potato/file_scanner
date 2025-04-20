@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        File Viewer 
+    </h1>
+    <form action="http://127.0.0.1:3030/upload" method="POST" enctype="multipart/form-data">
+        <label for="file">Select a file:</label>
+        <input type="file" id="file" name="file" accept=".txt, .csv, .json, .xml" required>
+        <button type="submit">View File</button>
+            
+        <p>
+            ____________________________________
+        </p>
+    </form>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Attribute
+                </th>
+                <th>
+                    Value
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    File-Size
+                </td>
+                <td id="file-size">
+                    0 bytes
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Updates (Past 5 seconds)
+                </td>
+                <td id="file-updates">
+                    0 times
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Last-Modified
+                </td>
+                <td id="file-last-modified">
+                    N/A
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Name
+                </td>
+                <td id="file-name">
+                    N/A
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Type
+                </td>
+                <td id="file-type">
+                    N/A
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Path
+                </td>
+                <td id="file-path">
+                    N/A
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    File-Content
+                </td>
+                <td id="file-content">
+                    N/A
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <footer>
+        <p>
+            File Viewer &copy; 2023 | Version 1.0 | All rights reserved | drglinnallen@gmail.com
+        </p>
+    </footer>
+</body>
+</html>
